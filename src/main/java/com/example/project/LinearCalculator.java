@@ -93,9 +93,9 @@ public class LinearCalculator{
         } else return "y=" + slope() + "x+" + yInt(); 
     }
 
-    // used Math.round and multipled and divided by 100 in order to round to the hundreths
+    // used Math.round and multiplied and divided by 100 in order to round to the hundreths
     public double roundedToHundredth(double x){
-        // used 100.0 to make sure not to accidently do integer division
+        // used 100.0 to make sure not to accidentally do integer division
         return Math.round(x * 100.0) / 100.0;
     }
 
